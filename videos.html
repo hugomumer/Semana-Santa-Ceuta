@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos - Semana Santa Ceuta</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos para el contenedor de videos en 2 columnas */
+        .video-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 300px;
+        }
+
+        @media (max-width: 768px) {
+            /* Para pantallas pequeñas, poner los videos en una sola columna */
+            .video-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia de las Hermandades</a></li>
+                <li><a href="estrenos.html">Estrenos</a></li>
+                <li><a href="cultos.html">Cultos</a></li>
+                <li><a href="glorias.html">Glorias</a></li>
+                <li><a href="consejo.html">Consejo de Hermandades y Cofradías</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenedor de videos en 2 columnas -->
+    <main>
+        <h1>Videos de la Semana Santa en Ceuta</h1>
+        <div class="video-container">
+            <!-- Video 1 -->
+            <iframe src="https://www.youtube.com/embed/iKniQ2UTJM8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <!-- Video 2 -->
+            <iframe src="https://www.youtube.com/embed/C40txK4yryI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <!-- Video 3 -->
+            <iframe src="https://www.youtube.com/embed/PTQOHgj55EI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <!-- Video 4 -->
+            <iframe src="https://www.youtube.com/embed/wK6gCg7oS84" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <!-- Video 5 -->
+            <iframe src="https://www.youtube.com/embed/FHEiRRwWF10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <!-- Video 6 -->
+            <iframe src="https://www.youtube.com/embed/Q--Fbv-u9TY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <!-- Video 7 -->
+            <iframe src="https://www.youtube.com/embed/IrpPpbt6E98" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Semana Santa Ceuta. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
